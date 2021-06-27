@@ -1,0 +1,114 @@
+:root {
+    --cyprus: #003343;
+    --half-baked: #86BFD3;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto-mono', sans-serif;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Gradie\ Sign\ Up\ Starter\ Files/Assets/Background.png");
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 70vw;
+    height: 70vh;
+
+    display: flex;
+    border-radius: 1%;
+}
+
+.gradie {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 1%;
+    background-color: var(--cyprus);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradie__title {
+    color: white;
+    padding-top: 40px;
+}
+
+.gradie__subtitle {
+    color: var(--half-baked);
+    padding-top: 10px;
+}
+
+.gradie__image {
+    position: absolute;
+
+    width: 400px;
+    height: 500px;
+    padding-bottom: 51px;
+}
+
+.login {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    border-radius: 1%;
+    background: #fefeff;
+}
+
+.login > * {
+    margin-bottom: 30px;
+}
+
+.login__title {
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
+.login__form__label {
+    font-weight: bold;
+}
+
+.login__form__input {
+    width: 300px;
+    padding: 15px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.login__terms {
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+.login__terms__link {
+    font-weight: bold;
+    color: #013342;
+    text-decoration: var(--cyprus) underline;
+}
+
+.login__button {
+    width: 290px;
+    padding: 20px 0px;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: var(--cyprus);
+    border: 0;
+    border-radius: 4px;
+}
