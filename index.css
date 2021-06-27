@@ -158,3 +158,9 @@
         height: 90%;
     }
 }
+
+@media (min-width: 1001px) and (max-width: 1350px) {
+    .gradie__image {
+        height: 75.1%;
+    }
+}
