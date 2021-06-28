@@ -54,7 +54,7 @@
 
     
     height: 76.9%;
-    padding-bottom: 38px;
+    padding-bottom: 33px;
 }
 
 .login {
@@ -159,8 +159,8 @@
     }
 }
 
-@media (min-width: 1001px) and (max-width: 1350px) {
+@media (min-width: 1001px) {
     .gradie__image {
-        height: 75.1%;
+        height: 74.4%;
     }
 }
