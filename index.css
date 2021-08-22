@@ -225,6 +225,10 @@
         height: 10%;
     }
 
+    .login__terms {
+        margin-bottom: 10px;
+    }
+
     .login__terms,
     .login__terms__link {
         font-size: 0.8em;
