@@ -35,6 +35,9 @@
     height: 100%;
 
     border-radius: 1%;
+    background-image: url("./Gradie\ Sign\ Up\ Starter\ Files/Assets/iPhone_Mockup.png");
+    background-position: center;
+    background-size: cover;
     background-color: var(--cyprus);
     display: flex;
     flex-direction: column;
@@ -51,13 +54,6 @@
 .gradie__subtitle {
     color: var(--half-baked);
     padding-top: 10px;
-}
-
-.gradie__image {
-    position: absolute;
-    
-    height: 76.9%;
-    padding-bottom: 28px;
 }
 
 .login {
